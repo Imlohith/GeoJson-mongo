@@ -23,5 +23,8 @@ mongoose.connect(`mongodb+srv://lohith:lohith@cluster0-xdaj2.mongodb.net/ninjas?
             console.log(`app liestens on port 3000`)
         })
     })
+    .catch(err => {
+        throw err
+    })
 
 
